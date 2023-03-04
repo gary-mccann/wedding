@@ -6,7 +6,18 @@ body {
 
 .about {
     background-color:#344B5A;
-    padding: 0px;
+    -webkit-background-position:top center;
+    background-position:top center;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+    bottom:0;
+    left:0;
+    position:fixed;
+    right:0;
+    z-index:-1;
+    top:56px;
+    bottom:-120px;
 }
 
 .projects {
